@@ -1,0 +1,7 @@
+/build/
+/data/*
+!/data/.gitkeep
+__pycache__/
+*.pyc
+.venv/
+/reports/*.tmp
