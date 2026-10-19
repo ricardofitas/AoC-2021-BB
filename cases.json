@@ -1,0 +1,389 @@
+{
+  "source": "https://kramkow.ski/project/aoc2021-bigboys.html",
+  "source_author": "Tomasz Kramkowski",
+  "source_license": "CC BY-SA 4.0",
+  "retrieved_at": "2026-10-19",
+  "cases": [
+    {
+      "id": "3-1000001-100",
+      "day": 3,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/3-1000001-100.in.xz",
+      "file": "3-1000001-100.in.xz",
+      "expected": {
+        "part1": "386463119445733053722557199393548794069517420395751036911156",
+        "part2": "356913958942791247617705918285570893096041618195840162127310"
+      },
+      "sha256": "a8b0b3351cab40ab3c74bd59d823f6ed349edffbac7366f409831980855924bd",
+      "input_sha256": "a8a4687a7d955046a8c61c48b3bea6ac9ac821e6a59dd58c9817a36f59e2137f",
+      "input_bytes": 101000101
+    },
+    {
+      "id": "4-3600-30",
+      "day": 4,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/4-3600-30.in.xz",
+      "file": "4-3600-30.in.xz",
+      "expected": {
+        "part1": "1527513658",
+        "part2": "199953180"
+      },
+      "sha256": "4c9f7118dd9db44ac6407c36253101138efd396ef18d9fc9f8a44c7b36fa5e4d",
+      "input_sha256": "2e8d69724763d9bd5b97e05043f9d9795fa95be991d21c9d8410c950acaee1d3",
+      "input_bytes": 16220490
+    },
+    {
+      "id": "4-900-15",
+      "day": 4,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/4-900-15.in.xz",
+      "file": "4-900-15.in.xz",
+      "expected": {
+        "part1": "22010880",
+        "part2": "5371020"
+      },
+      "sha256": "15b5db02143ce1fa459321eaa06d305657a8e6c537ded2569cdc8cdf4fabcd27",
+      "input_sha256": "f9a130c1f65999b1936823cbfe3285ee4fd09ea7c04ed8e57d69fc049724fe90",
+      "input_bytes": 814390
+    },
+    {
+      "id": "5-20000-6400",
+      "day": 5,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/5-20000-6400.in.xz",
+      "file": "5-20000-6400.in.xz",
+      "expected": {
+        "part1": "6530681",
+        "part2": "9039258"
+      },
+      "sha256": "d3557e37a51f56f92ac03a56b89436c35bc40637f35e7da69fe610a7fd9034d3",
+      "input_sha256": "0612eced5c10aee8448e9e9aa414bebcdfff4461da63ed83354676e4aa2fdcc9",
+      "input_bytes": 445428
+    },
+    {
+      "id": "5-50000-10000",
+      "day": 5,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/5-50000-10000.in.xz",
+      "file": "5-50000-10000.in.xz",
+      "expected": {
+        "part1": "30405812",
+        "part2": "39512010"
+      },
+      "sha256": "36ddd79a5bd6edb9ae59a60a9fc8f7af7443e6dc5a2e09330318835be4c2fb9b",
+      "input_sha256": "0b8f61ed7c7ce54a97be64d8a262ed933d8acf9e5e9c233727ed07398c5d8988",
+      "input_bytes": 1126185
+    },
+    {
+      "id": "5-50000-10000000",
+      "day": 5,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/5-50000-10000000.in.xz",
+      "file": "5-50000-10000000.in.xz",
+      "expected": {
+        "part1": "72068735",
+        "part2": "113830179"
+      },
+      "sha256": "67d7ef7dde440066ac2f51055e65055c279da6151625ad1ce44c4968043bd31d",
+      "input_sha256": "05758adc342b392ee87f82abd589d79f05abd5eb2ff1478978be98da7355022b",
+      "input_bytes": 1726319
+    },
+    {
+      "id": "6-9999999",
+      "day": 6,
+      "initial": [
+        3,
+        4,
+        3,
+        1,
+        2
+      ],
+      "steps": 9999999,
+      "expected": {
+        "value": {
+          "digits": 378346,
+          "prefix": "4182599183",
+          "suffix": "6707352532"
+        }
+      }
+    },
+    {
+      "id": "6-67108864",
+      "day": 6,
+      "initial": [
+        3,
+        4,
+        3,
+        1,
+        2
+      ],
+      "steps": 67108864,
+      "expected": {
+        "value": {
+          "digits": 2539031,
+          "prefix": "3060363545",
+          "suffix": "5483141435"
+        }
+      }
+    },
+    {
+      "id": "7-1000000-2",
+      "day": 7,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/7-1000000-2.in.xz",
+      "file": "7-1000000-2.in.xz",
+      "expected": {
+        "part1": "348121442862",
+        "part2": "97051441111920642"
+      },
+      "sha256": "7dddb15dd9df374ba7b4359551ca0c7fc5460b24ff8dfa651399bf3bb76f5d22",
+      "input_sha256": "76af7d7d584c4896b8eb0a2de9ccd1bf58f1615b5bd71983bee06eda452484a0",
+      "input_bytes": 6916617
+    },
+    {
+      "id": "8-100000",
+      "day": 8,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/8-100000.in.xz",
+      "file": "8-100000.in.xz",
+      "expected": {
+        "part1": "159946",
+        "part2": "498570828"
+      },
+      "sha256": "6a2fdfb4f5d1f30e49829afe9dc7f98682a8ba06270e7120d6eaa5a1cb5bc2d6",
+      "input_sha256": "b312c9e49b6549d52fd24f23d513db198072b2b6512fad7e4b60867da3474df0",
+      "input_bytes": 8460565
+    },
+    {
+      "id": "9-4096-2",
+      "day": 9,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/9-4096-2.in.xz",
+      "file": "9-4096-2.in.xz",
+      "expected": {
+        "part1": "149706",
+        "part2": "4971158490375"
+      },
+      "sha256": "db14cf89f7c55e4c61d09ceb59cdb96822dffc0a0dd1fa80ccca3d30a0d8694e",
+      "note": "Author labels this input broken: count each connected non-9 basin once; do not duplicate basins by their multiple local minima.",
+      "input_sha256": "e9a071717b8168cbef0a0b4a61975243c7ee94829619d5a9ea7485661d70231c",
+      "input_bytes": 16781312
+    },
+    {
+      "id": "9-4096-4",
+      "day": 9,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/9-4096-4.in.xz",
+      "file": "9-4096-4.in.xz",
+      "expected": {
+        "part1": "152649",
+        "part2": "101367520960"
+      },
+      "sha256": "85c0d7248cb91f1ebfecd4b0090bab475ed5d3ea55cfd7b79af5d155ebd4ce28",
+      "input_sha256": "f53fd6abdaeeb4f51908bd6755e5085afead3c389a97fda65e37adc7138bcfe0",
+      "input_bytes": 16781312
+    },
+    {
+      "id": "10-10000-1000",
+      "day": 10,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/10-10000-1000.in.xz",
+      "file": "10-10000-1000.in.xz",
+      "expected": {
+        "part1": "32852823",
+        "part2": "105721020868542718163333508098695965856824383141538359"
+      },
+      "sha256": "dca614f919ed5248811aa0a1f1f24d0d66928f61875113f64624539b4d807d94",
+      "input_sha256": "3584aca3c2f4aec5d39409de4589417f0f673132655bcf33c46abb702ad00706",
+      "input_bytes": 9600796
+    },
+    {
+      "id": "10-10000-10000",
+      "day": 10,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/10-10000-10000.in.xz",
+      "file": "10-10000-10000.in.xz",
+      "expected": {
+        "part1": "32256063",
+        "part2": "4147221136278686118851251078439942241593032865422495540589075652007224217627158672406548941332753773231145137591607755327259751330408129749234363801432056312168742919300272994666758197001661058825916005929107429822715605939942443473451119156732403958992327362236310858256528168096490885509843074970456349764872605113646021900154182133457634302249036648560726381663678169920580181158091185711536415744289810493158025390014526746339533063857301193312008845372928578055750021478792579394195467723166421532710570596861139275905662620238"
+      },
+      "sha256": "9ba6ccfd6b533ea6a5f51d21debf7e5f3908b9a40576e01c4b5ba23459a99e11",
+      "input_sha256": "38dfa2ee4c2c0530c55ec525f37d0282d5ee111027a6b7d80ef18f55ff3a13e6",
+      "input_bytes": 95898847
+    },
+    {
+      "id": "11-100-2",
+      "day": 11,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/11-100-2.in.xz",
+      "file": "11-100-2.in.xz",
+      "expected": {
+        "part1": "155620",
+        "part2": "202"
+      },
+      "sha256": "f23e78ba6a4ed9cecc479714727d01a04dd2a189fd8aa0e0520d67e97dba3377",
+      "input_sha256": "a7b5d53a21983b31d8e692987b300a59c34aef83f643e9a1346b1714ae07090f",
+      "input_bytes": 10100
+    },
+    {
+      "id": "11-1000-2",
+      "day": 11,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/11-1000-2.in.xz",
+      "file": "11-1000-2.in.xz",
+      "expected": {
+        "part1": "15030707",
+        "part2": "454"
+      },
+      "sha256": "046d78da6fa9c677360e8a1cbfc9f3135b9941027856f876ae3080996cc909ca",
+      "input_sha256": "b9b105713132e88e41951d4132a17757390727753adb309385924b7f3205968d",
+      "input_bytes": 1001000
+    },
+    {
+      "id": "12-18-10-7-2",
+      "day": 12,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/12-18-10-7-2.in",
+      "file": "12-18-10-7-2.in",
+      "expected": {
+        "part1": "63130821975168",
+        "part2": "9781700422939493"
+      },
+      "sha256": "e1313ddd8653fb80ee1b127191c70c6e328aebe20d6b7ae49f7f97a05bfbc536",
+      "input_sha256": "e1313ddd8653fb80ee1b127191c70c6e328aebe20d6b7ae49f7f97a05bfbc536",
+      "input_bytes": 382
+    },
+    {
+      "id": "12-18-9-7",
+      "day": 12,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/12-18-9-7.in",
+      "file": "12-18-9-7.in",
+      "expected": {
+        "part1": "617617055",
+        "part2": "51532272174"
+      },
+      "sha256": "db0646f7b9a6894b74557bd8a649b0119f10a0cc5aded1ddc42b17bded5ab028",
+      "input_sha256": "db0646f7b9a6894b74557bd8a649b0119f10a0cc5aded1ddc42b17bded5ab028",
+      "input_bytes": 240
+    },
+    {
+      "id": "12-21-12-7",
+      "day": 12,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/12-21-12-7.in",
+      "file": "12-21-12-7.in",
+      "expected": {
+        "part1": "29474222813529",
+        "part2": "5141038157763320"
+      },
+      "sha256": "7f8ab3f0618f9b38921dad8e1f1def18a06530c49c54c3ffa7a851ec4eceb9e1",
+      "input_sha256": "7f8ab3f0618f9b38921dad8e1f1def18a06530c49c54c3ffa7a851ec4eceb9e1",
+      "input_bytes": 352
+    },
+    {
+      "id": "12-24-14-7",
+      "day": 12,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/12-24-14-7.in",
+      "file": "12-24-14-7.in",
+      "expected": {
+        "part1": "154850773837774189",
+        "part2": "33501351222065201672"
+      },
+      "sha256": "6bdcfc60b0f723b59797eba742bb5b3d1373df4278becd3f42ec0c27b1b1c1f0",
+      "input_sha256": "6bdcfc60b0f723b59797eba742bb5b3d1373df4278becd3f42ec0c27b1b1c1f0",
+      "input_bytes": 446
+    },
+    {
+      "id": "14-100000",
+      "day": 14,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/14.in",
+      "file": "14.in",
+      "steps": 100000,
+      "expected": {
+        "value": {
+          "digits": 30104,
+          "prefix": "2058072250",
+          "suffix": "8302987714",
+          "mod64": "3612905615560025538"
+        }
+      },
+      "sha256": "971553dfb3968515eb70f48b1b474408abe3a9bf7e27d0e7384e28ce90c80246",
+      "input_sha256": "971553dfb3968515eb70f48b1b474408abe3a9bf7e27d0e7384e28ce90c80246",
+      "input_bytes": 822
+    },
+    {
+      "id": "14-200000",
+      "day": 14,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/14.in",
+      "file": "14.in",
+      "steps": 200000,
+      "expected": {
+        "value": {
+          "digits": 60207,
+          "prefix": "2056018485",
+          "suffix": "9950238903",
+          "mod64": "1164363483496783031"
+        }
+      },
+      "sha256": "971553dfb3968515eb70f48b1b474408abe3a9bf7e27d0e7384e28ce90c80246",
+      "input_sha256": "971553dfb3968515eb70f48b1b474408abe3a9bf7e27d0e7384e28ce90c80246",
+      "input_bytes": 822
+    },
+    {
+      "id": "14-1000000",
+      "day": 14,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/14.in",
+      "file": "14.in",
+      "steps": 1000000,
+      "expected": {
+        "value": {
+          "digits": 301031,
+          "prefix": "2039661977",
+          "suffix": "9465801772",
+          "mod64": "15865429992962593836"
+        }
+      },
+      "sha256": "971553dfb3968515eb70f48b1b474408abe3a9bf7e27d0e7384e28ce90c80246",
+      "input_sha256": "971553dfb3968515eb70f48b1b474408abe3a9bf7e27d0e7384e28ce90c80246",
+      "input_bytes": 822
+    },
+    {
+      "id": "15-1000",
+      "day": 15,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/15-1000.in.xz",
+      "file": "15-1000.in.xz",
+      "expected": {
+        "part1": "5576",
+        "part2": "27759"
+      },
+      "sha256": "963df954374930ca2548c59f3444aaf604c4c766fe48a55c44d8707e52af4d50",
+      "input_sha256": "8845fd8f2045889ebd0b466fba6e2db11ebe6adcf853e00ebce31c7e509b53b9",
+      "input_bytes": 1001000
+    },
+    {
+      "id": "15-10000",
+      "day": 15,
+      "url": "https://the-tk.com/files/aoc2021-bigboys/15-10000.in.xz",
+      "file": "15-10000.in.xz",
+      "expected": {
+        "part1": "55502",
+        "part2": "277236"
+      },
+      "sha256": "0849e90754fe5db99ae3f47ad103874dd2708596fc973378c9236113d6f94038",
+      "input_sha256": "90c35d91d131f091d773c9c99cdb1a3b0991aac5043e5ca2fb04eb7498479eec",
+      "input_bytes": 100010000
+    },
+    {
+      "id": "17-117",
+      "day": 17,
+      "target": [
+        117,
+        7310,
+        -9546,
+        -89
+      ],
+      "expected": {
+        "part1": "45558285",
+        "part2": "69665558"
+      }
+    },
+    {
+      "id": "17-50842",
+      "day": 17,
+      "target": [
+        50842,
+        144383,
+        -187041,
+        -90458
+      ],
+      "expected": {
+        "part1": "17492074320",
+        "part2": "12490271023"
+      }
+    }
+  ]
+}

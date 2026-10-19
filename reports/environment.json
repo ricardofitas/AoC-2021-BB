@@ -1,0 +1,8 @@
+{
+  "model name": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "siblings": "9",
+  "cpu cores": "9",
+  "architecture": "x86_64",
+  "memory_limit_bytes": 8589934592,
+  "cpu_quota": "800000 100000"
+}

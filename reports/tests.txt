@@ -1,0 +1,23 @@
+python -m unittest discover -s tests -v
+test_compressed_input_checksum_mismatch (test_download.DownloadIntegrityTests.test_compressed_input_checksum_mismatch) ... ok
+test_download_cache_and_decompression_checksums (test_download.DownloadIntegrityTests.test_download_cache_and_decompression_checksums) ... Ready: synthetic.in.xz
+ok
+test_fish_against_simulation (test_solvers.ExactArithmeticTests.test_fish_against_simulation) ... ok
+test_polymer_against_literal_expansion (test_solvers.ExactArithmeticTests.test_polymer_against_literal_expansion) ... ok
+test_signed_convolution (test_solvers.ExactArithmeticTests.test_signed_convolution) ... ok
+test_basins_multiple_minima_counted_once (test_solvers.NativeTests.test_basins_multiple_minima_counted_once) ... ok
+test_bingo (test_solvers.NativeTests.test_bingo) ... ok
+test_caves_against_path_enumeration (test_solvers.NativeTests.test_caves_against_path_enumeration) ... ok
+test_octopi_against_simulation (test_solvers.NativeTests.test_octopi_against_simulation) ... ok
+test_pathfinding_against_heap_dijkstra (test_solvers.NativeTests.test_pathfinding_against_heap_dijkstra) ... ok
+test_projectiles_against_velocity_enumeration (test_solvers.NativeTests.test_projectiles_against_velocity_enumeration) ... ok
+test_vents_dense_and_sparse_against_point_counting (test_solvers.NativeTests.test_vents_dense_and_sparse_against_point_counting) ... ok
+test_brackets_big_integer_and_complete_lines (test_solvers.PythonTests.test_brackets_big_integer_and_complete_lines) ... ok
+test_crabs_against_exhaustive_targets (test_solvers.PythonTests.test_crabs_against_exhaustive_targets) ... ok
+test_diagnostic_arbitrary_width (test_solvers.PythonTests.test_diagnostic_arbitrary_width) ... ok
+test_display_random_permutations (test_solvers.PythonTests.test_display_random_permutations) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.659s
+
+OK

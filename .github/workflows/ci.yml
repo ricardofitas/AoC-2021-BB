@@ -1,0 +1,38 @@
+name: Validate solvers
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      full_suite:
+        description: Download and verify all 27 Big Inputs
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install exact-arithmetic dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Compile and test against independent small-case oracles
+        run: make test
+      - name: Download the author's synthetic datasets
+        if: github.event_name == 'workflow_dispatch' && inputs.full_suite
+        run: make download
+      - name: Verify every published case
+        if: github.event_name == 'workflow_dispatch' && inputs.full_suite
+        run: python -m aocbb verify --answer-dir build/ci/answers --report build/ci/reports/verification.json
+      - name: Preserve the computed answers and verification report
+        if: always() && github.event_name == 'workflow_dispatch' && inputs.full_suite
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: big-input-verification
+          path: build/ci/

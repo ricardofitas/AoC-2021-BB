@@ -1,0 +1,889 @@
+{
+  "source": "https://kramkow.ski/project/aoc2021-bigboys.html",
+  "started_at": "2026-10-19T22:27:14.327702+00:00",
+  "solver_source_sha256": "306fb005972af60a183c15d02adf06b41f20817fa3c2f5f3d9d92f08ad5ee317",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "gmpy2": "2.3.2",
+  "sympy": "1.14.0",
+  "rss_definition": "Maximum process RSS observed for the worker or its native child; KiB on Linux.",
+  "cases": [
+    {
+      "id": "3-1000001-100",
+      "day": 3,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 60,
+          "prefix": "3864631194",
+          "suffix": "1036911156",
+          "mod64": "11220672788538293812",
+          "mod32": "2511830580",
+          "exact": "386463119445733053722557199393548794069517420395751036911156",
+          "file": "answers/3-1000001-100-part1.txt",
+          "file_sha256": "536bb18078d2e53cf4d4dc96db0b5635d07319baa837264d2a956ab15b4c0d98",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 60,
+          "prefix": "3569139589",
+          "suffix": "0162127310",
+          "mod64": "2354899425966480846",
+          "mod32": "377544142",
+          "exact": "356913958942791247617705918285570893096041618195840162127310",
+          "file": "answers/3-1000001-100-part2.txt",
+          "file_sha256": "2aeed03719af64d0395df2d2cc8bbdb3fea355114b14d6895d64e848c6cf50e4",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 352644,
+      "independent_moduli": [],
+      "wall_seconds": 1.245
+    },
+    {
+      "id": "4-3600-30",
+      "day": 4,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 10,
+          "prefix": "1527513658",
+          "suffix": "1527513658",
+          "mod64": "1527513658",
+          "mod32": "1527513658",
+          "exact": "1527513658",
+          "file": "answers/4-3600-30-part1.txt",
+          "file_sha256": "f742aab56c2e65a3ed722c11c48f7c02159f4c482aef6550f91892eb8ec5fc55",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 9,
+          "prefix": "199953180",
+          "suffix": "199953180",
+          "mod64": "199953180",
+          "mod32": "199953180",
+          "exact": "199953180",
+          "file": "answers/4-3600-30-part2.txt",
+          "file_sha256": "a86adc5f8bff5da8ea23305b4d65f709e946cda68546cbb52fcb4f8e83804f1d",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 59528,
+      "independent_moduli": [],
+      "wall_seconds": 1.639
+    },
+    {
+      "id": "4-900-15",
+      "day": 4,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 8,
+          "prefix": "22010880",
+          "suffix": "22010880",
+          "mod64": "22010880",
+          "mod32": "22010880",
+          "exact": "22010880",
+          "file": "answers/4-900-15-part1.txt",
+          "file_sha256": "ae7b4393715fbf6a5db5649a788d7dc29d17cb06f053c330a10f17610346a58a",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 7,
+          "prefix": "5371020",
+          "suffix": "5371020",
+          "mod64": "5371020",
+          "mod32": "5371020",
+          "exact": "5371020",
+          "file": "answers/4-900-15-part2.txt",
+          "file_sha256": "9be87cd8bfdbfdb178402d6ae9c014d9b6f2e286def4fdcfb43f93bae54c51cb",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 59528,
+      "independent_moduli": [],
+      "wall_seconds": 0.745
+    },
+    {
+      "id": "5-20000-6400",
+      "day": 5,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 7,
+          "prefix": "6530681",
+          "suffix": "6530681",
+          "mod64": "6530681",
+          "mod32": "6530681",
+          "exact": "6530681",
+          "file": "answers/5-20000-6400-part1.txt",
+          "file_sha256": "30bf90d4c4cd90c16ddac373f0b1b678e5c626f84fdb654ec3633c2a4f4b2c81",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 7,
+          "prefix": "9039258",
+          "suffix": "9039258",
+          "mod64": "9039258",
+          "mod32": "9039258",
+          "exact": "9039258",
+          "file": "answers/5-20000-6400-part2.txt",
+          "file_sha256": "a03fcf1c751e273d729bf1fb016d189841dce53f8366daa91dd858075390cb59",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 59528,
+      "independent_moduli": [],
+      "wall_seconds": 1.304
+    },
+    {
+      "id": "5-50000-10000",
+      "day": 5,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 8,
+          "prefix": "30405812",
+          "suffix": "30405812",
+          "mod64": "30405812",
+          "mod32": "30405812",
+          "exact": "30405812",
+          "file": "answers/5-50000-10000-part1.txt",
+          "file_sha256": "e365ac88b4e3c191971cf1b3cc07857bcbf36a233ec88d50a7457e212fbbd963",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 8,
+          "prefix": "39512010",
+          "suffix": "39512010",
+          "mod64": "39512010",
+          "mod32": "39512010",
+          "exact": "39512010",
+          "file": "answers/5-50000-10000-part2.txt",
+          "file_sha256": "9bee2166f483d19b88f303fdb2362b90b0dcb51fdf4b825197aebeee78c09cd0",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 101476,
+      "independent_moduli": [],
+      "wall_seconds": 2.456
+    },
+    {
+      "id": "5-50000-10000000",
+      "day": 5,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 8,
+          "prefix": "72068735",
+          "suffix": "72068735",
+          "mod64": "72068735",
+          "mod32": "72068735",
+          "exact": "72068735",
+          "file": "answers/5-50000-10000000-part1.txt",
+          "file_sha256": "63df972caa789cdaac6e224b9b922cbc8ce1e1202e13c192158b30138eae6773",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 9,
+          "prefix": "113830179",
+          "suffix": "113830179",
+          "mod64": "113830179",
+          "mod32": "113830179",
+          "exact": "113830179",
+          "file": "answers/5-50000-10000000-part2.txt",
+          "file_sha256": "1d48440cbc7d870099543e36538325dd9a9f82c321410998faa57d7273937278",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 1057864,
+      "independent_moduli": [],
+      "wall_seconds": 14.839
+    },
+    {
+      "id": "6-9999999",
+      "day": 6,
+      "passed": true,
+      "answers": {
+        "value": {
+          "digits": 378346,
+          "prefix": "4182599183",
+          "suffix": "6707352532",
+          "mod64": "1787977885003758548",
+          "mod32": "3454483412",
+          "file": "answers/6-9999999-value.txt",
+          "file_sha256": "9d0b98efa31c94a264ffe7aad5c68a21c338ebfa3b58dd0e28b96592349c426e",
+          "published_check_passed": true,
+          "published_check_type": "fingerprint"
+        }
+      },
+      "peak_process_rss_kib": 82336,
+      "independent_moduli": [
+        "1000003",
+        "1000033",
+        "18446744073709551616"
+      ],
+      "wall_seconds": 1.687
+    },
+    {
+      "id": "6-67108864",
+      "day": 6,
+      "passed": true,
+      "answers": {
+        "value": {
+          "digits": 2539031,
+          "prefix": "3060363545",
+          "suffix": "5483141435",
+          "mod64": "14648082760698467643",
+          "mod32": "2012517691",
+          "file": "answers/6-67108864-value.txt",
+          "file_sha256": "7db4326290591dea07ae38a9c49df249d98846e72382b78d3a4363dde8f8b396",
+          "published_check_passed": true,
+          "published_check_type": "fingerprint"
+        }
+      },
+      "peak_process_rss_kib": 170032,
+      "independent_moduli": [
+        "1000003",
+        "1000033",
+        "18446744073709551616"
+      ],
+      "wall_seconds": 4.832
+    },
+    {
+      "id": "7-1000000-2",
+      "day": 7,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 12,
+          "prefix": "3481214428",
+          "suffix": "8121442862",
+          "mod64": "348121442862",
+          "mod32": "229091886",
+          "exact": "348121442862",
+          "file": "answers/7-1000000-2-part1.txt",
+          "file_sha256": "965a9a56b2e31c0a35cdf6c2a08cad8f22d36d9cd226d551264f85071293d065",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 17,
+          "prefix": "9705144111",
+          "suffix": "1111920642",
+          "mod64": "97051441111920642",
+          "mod32": "2154459138",
+          "exact": "97051441111920642",
+          "file": "answers/7-1000000-2-part2.txt",
+          "file_sha256": "e4cf06cc7f7c6213f69b16f754fba282f5950c5ff30c2d7eaf0654d12e22f9ee",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 113516,
+      "independent_moduli": [],
+      "wall_seconds": 1.982
+    },
+    {
+      "id": "8-100000",
+      "day": 8,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 6,
+          "prefix": "159946",
+          "suffix": "159946",
+          "mod64": "159946",
+          "mod32": "159946",
+          "exact": "159946",
+          "file": "answers/8-100000-part1.txt",
+          "file_sha256": "51a440e2fa5f82f09169eb60890a811b655a372e58fc79aa415ae658fcbfee91",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 9,
+          "prefix": "498570828",
+          "suffix": "498570828",
+          "mod64": "498570828",
+          "mod32": "498570828",
+          "exact": "498570828",
+          "file": "answers/8-100000-part2.txt",
+          "file_sha256": "cd34b516b89e28720b97b074ffe09838bc0247ae9c4288e8e9424e060fa5271a",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 80364,
+      "independent_moduli": [],
+      "wall_seconds": 2.724
+    },
+    {
+      "id": "9-4096-2",
+      "day": 9,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 6,
+          "prefix": "149706",
+          "suffix": "149706",
+          "mod64": "149706",
+          "mod32": "149706",
+          "exact": "149706",
+          "file": "answers/9-4096-2-part1.txt",
+          "file_sha256": "57e0ec69a3dbeaf16792276278887a3fdf704c7ebe81df66c04a677f6e01b52f",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 13,
+          "prefix": "4971158490",
+          "suffix": "1158490375",
+          "mod64": "4971158490375",
+          "mod32": "1881328903",
+          "exact": "4971158490375",
+          "file": "answers/9-4096-2-part2.txt",
+          "file_sha256": "c08ec5c1ea05098d43eec9ddbcd338f17304a575eb3137937de490595226850d",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 59528,
+      "independent_moduli": [],
+      "wall_seconds": 1.334
+    },
+    {
+      "id": "9-4096-4",
+      "day": 9,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 6,
+          "prefix": "152649",
+          "suffix": "152649",
+          "mod64": "152649",
+          "mod32": "152649",
+          "exact": "152649",
+          "file": "answers/9-4096-4-part1.txt",
+          "file_sha256": "e556f85d1b6dd71659655c264b425ba6cfa619f2ef33b16f82f60a79983b7a3b",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 12,
+          "prefix": "1013675209",
+          "suffix": "1367520960",
+          "mod64": "101367520960",
+          "mod32": "2583273152",
+          "exact": "101367520960",
+          "file": "answers/9-4096-4-part2.txt",
+          "file_sha256": "2e05e185039b6ba646bc79e126ed1ae49b8e8aa54b48a8e2129fd136e7de0a65",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 59528,
+      "independent_moduli": [],
+      "wall_seconds": 1.139
+    },
+    {
+      "id": "10-10000-1000",
+      "day": 10,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 8,
+          "prefix": "32852823",
+          "suffix": "32852823",
+          "mod64": "32852823",
+          "mod32": "32852823",
+          "exact": "32852823",
+          "file": "answers/10-10000-1000-part1.txt",
+          "file_sha256": "ffa36623c82889f5ab3397f6d4bbd4c40521810561f8ddb4a3fe1fe84be4077b",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 54,
+          "prefix": "1057210208",
+          "suffix": "3141538359",
+          "mod64": "11022194402702354999",
+          "mod32": "1113549367",
+          "exact": "105721020868542718163333508098695965856824383141538359",
+          "file": "answers/10-10000-1000-part2.txt",
+          "file_sha256": "64ef421028608aa3894f97519ba412c5c3e14b25874bf5d703f7dc658072ac75",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 59528,
+      "independent_moduli": [],
+      "wall_seconds": 1.12
+    },
+    {
+      "id": "10-10000-10000",
+      "day": 10,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 8,
+          "prefix": "32256063",
+          "suffix": "32256063",
+          "mod64": "32256063",
+          "mod32": "32256063",
+          "exact": "32256063",
+          "file": "answers/10-10000-10000-part1.txt",
+          "file_sha256": "d33450d339433dc81a4e8e5d1e01ba89d841300cfc0cc3d96c4bb84a7ed9fc95",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 532,
+          "prefix": "4147221136",
+          "suffix": "5662620238",
+          "mod64": "4019508546077889102",
+          "mod32": "4104032846",
+          "exact": "4147221136278686118851251078439942241593032865422495540589075652007224217627158672406548941332753773231145137591607755327259751330408129749234363801432056312168742919300272994666758197001661058825916005929107429822715605939942443473451119156732403958992327362236310858256528168096490885509843074970456349764872605113646021900154182133457634302249036648560726381663678169920580181158091185711536415744289810493158025390014526746339533063857301193312008845372928578055750021478792579394195467723166421532710570596861139275905662620238",
+          "file": "answers/10-10000-10000-part2.txt",
+          "file_sha256": "82f9921d506f781fc3929d1bd99b266fd00d4632b2c4e38545d0c9813fd5ec7b",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 60176,
+      "independent_moduli": [],
+      "wall_seconds": 7.74
+    },
+    {
+      "id": "11-100-2",
+      "day": 11,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 6,
+          "prefix": "155620",
+          "suffix": "155620",
+          "mod64": "155620",
+          "mod32": "155620",
+          "exact": "155620",
+          "file": "answers/11-100-2-part1.txt",
+          "file_sha256": "86f3495e96d8fce3c9ca73c32c17e4815c232096e52184b58604cc0064f448fc",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 3,
+          "prefix": "202",
+          "suffix": "202",
+          "mod64": "202",
+          "mod32": "202",
+          "exact": "202",
+          "file": "answers/11-100-2-part2.txt",
+          "file_sha256": "1a55a7d16b47deb40890edb52c2234c4adddf330dbac2e1f1eedf0a9723a4c70",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 59528,
+      "independent_moduli": [],
+      "wall_seconds": 0.714
+    },
+    {
+      "id": "11-1000-2",
+      "day": 11,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 8,
+          "prefix": "15030707",
+          "suffix": "15030707",
+          "mod64": "15030707",
+          "mod32": "15030707",
+          "exact": "15030707",
+          "file": "answers/11-1000-2-part1.txt",
+          "file_sha256": "17d5d2dfe325e10fbb619f885116378ae912fdeb268383080fdf73acabccff14",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 3,
+          "prefix": "454",
+          "suffix": "454",
+          "mod64": "454",
+          "mod32": "454",
+          "exact": "454",
+          "file": "answers/11-1000-2-part2.txt",
+          "file_sha256": "8d9bcdac558e606c913189b6ce8db44c6eca9ccaab11f00b8226fc660a119b1e",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 59528,
+      "independent_moduli": [],
+      "wall_seconds": 2.321
+    },
+    {
+      "id": "12-18-10-7-2",
+      "day": 12,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 14,
+          "prefix": "6313082197",
+          "suffix": "0821975168",
+          "mod64": "63130821975168",
+          "mod32": "3392658560",
+          "exact": "63130821975168",
+          "file": "answers/12-18-10-7-2-part1.txt",
+          "file_sha256": "85e02a312cd0759c2c96af2549df6f8743853ca8918dacbfccc401831152ebf8",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 16,
+          "prefix": "9781700422",
+          "suffix": "0422939493",
+          "mod64": "9781700422939493",
+          "mod32": "2600612709",
+          "exact": "9781700422939493",
+          "file": "answers/12-18-10-7-2-part2.txt",
+          "file_sha256": "dbbedc917ff3ff1d2f338c4718921231cbfa446df4526df263b44647154d30cf",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 59528,
+      "independent_moduli": [],
+      "wall_seconds": 0.894
+    },
+    {
+      "id": "12-18-9-7",
+      "day": 12,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 9,
+          "prefix": "617617055",
+          "suffix": "617617055",
+          "mod64": "617617055",
+          "mod32": "617617055",
+          "exact": "617617055",
+          "file": "answers/12-18-9-7-part1.txt",
+          "file_sha256": "1a6c594876f2621efb10dee92e0db9c62c154b30a32270fa707c2766feaf3d8b",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 11,
+          "prefix": "5153227217",
+          "suffix": "1532272174",
+          "mod64": "51532272174",
+          "mod32": "4287631918",
+          "exact": "51532272174",
+          "file": "answers/12-18-9-7-part2.txt",
+          "file_sha256": "a179dbfacc7b4ca649db3cac51cb463cdf2f90b44910bc97aa4300047a397200",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 59528,
+      "independent_moduli": [],
+      "wall_seconds": 0.713
+    },
+    {
+      "id": "12-21-12-7",
+      "day": 12,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 14,
+          "prefix": "2947422281",
+          "suffix": "4222813529",
+          "mod64": "29474222813529",
+          "mod32": "2157228377",
+          "exact": "29474222813529",
+          "file": "answers/12-21-12-7-part1.txt",
+          "file_sha256": "7f055b542d50689db7c17a99b491bdcfe10228445925f0cd58b89b9ecfe9e2a3",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 16,
+          "prefix": "5141038157",
+          "suffix": "8157763320",
+          "mod64": "5141038157763320",
+          "mod32": "959156984",
+          "exact": "5141038157763320",
+          "file": "answers/12-21-12-7-part2.txt",
+          "file_sha256": "ef4bde5954128e03e5fcf2c8c0622535eb1d4c0aacc2e02dab0c32908decd87c",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 247988,
+      "independent_moduli": [],
+      "wall_seconds": 2.866
+    },
+    {
+      "id": "12-24-14-7",
+      "day": 12,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 18,
+          "prefix": "1548507738",
+          "suffix": "3837774189",
+          "mod64": "154850773837774189",
+          "mod32": "1472953709",
+          "exact": "154850773837774189",
+          "file": "answers/12-24-14-7-part1.txt",
+          "file_sha256": "d060fef22b5923df2afd52a59d87646a9f9c0c416be9049bbb4f89c5d6584597",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 20,
+          "prefix": "3350135122",
+          "suffix": "2065201672",
+          "mod64": "15054607148355650056",
+          "mod32": "1321959944",
+          "exact": "33501351222065201672",
+          "file": "answers/12-24-14-7-part2.txt",
+          "file_sha256": "db2b8394e338b0748fd07861eb42faa61fc8301c043e7894e3bf9ad2bcb588ad",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 2136848,
+      "independent_moduli": [],
+      "wall_seconds": 31.526
+    },
+    {
+      "id": "14-100000",
+      "day": 14,
+      "passed": true,
+      "answers": {
+        "value": {
+          "digits": 30104,
+          "prefix": "2058072250",
+          "suffix": "8302987714",
+          "mod64": "3612905615560025538",
+          "mod32": "4000851394",
+          "file": "answers/14-100000-value.txt",
+          "file_sha256": "602fee09aa29a3461f5981848362851f7833583cd5acba6210a77943a23e531d",
+          "published_check_passed": true,
+          "published_check_type": "fingerprint"
+        }
+      },
+      "peak_process_rss_kib": 76860,
+      "independent_moduli": [
+        "1000003",
+        "1000033",
+        "18446744073709551616"
+      ],
+      "wall_seconds": 1.214
+    },
+    {
+      "id": "14-200000",
+      "day": 14,
+      "passed": true,
+      "answers": {
+        "value": {
+          "digits": 60207,
+          "prefix": "2056018485",
+          "suffix": "9950238903",
+          "mod64": "1164363483496783031",
+          "mod32": "1329798327",
+          "file": "answers/14-200000-value.txt",
+          "file_sha256": "2db525f1f40b2a889f32658b92ffc5b337dfbfcfd981b9322f6417248be8631d",
+          "published_check_passed": true,
+          "published_check_type": "fingerprint"
+        }
+      },
+      "peak_process_rss_kib": 94168,
+      "independent_moduli": [
+        "1000003",
+        "1000033",
+        "18446744073709551616"
+      ],
+      "wall_seconds": 1.667
+    },
+    {
+      "id": "14-1000000",
+      "day": 14,
+      "passed": true,
+      "answers": {
+        "value": {
+          "digits": 301031,
+          "prefix": "2039661977",
+          "suffix": "9465801772",
+          "mod64": "15865429992962593836",
+          "mod32": "459084844",
+          "file": "answers/14-1000000-value.txt",
+          "file_sha256": "43be8e6f4c29b9d04a3947dec53377e6ce9e7eb8f15da5a9e1c09ed4a84c8901",
+          "published_check_passed": true,
+          "published_check_type": "fingerprint"
+        }
+      },
+      "peak_process_rss_kib": 194016,
+      "independent_moduli": [
+        "1000003",
+        "1000033",
+        "18446744073709551616"
+      ],
+      "wall_seconds": 5.289
+    },
+    {
+      "id": "15-1000",
+      "day": 15,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 4,
+          "prefix": "5576",
+          "suffix": "5576",
+          "mod64": "5576",
+          "mod32": "5576",
+          "exact": "5576",
+          "file": "answers/15-1000-part1.txt",
+          "file_sha256": "2f7e4b91a60774862be120dd7c64ee0947a46d108ffc347eff6d8b6a7e4d68a1",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 5,
+          "prefix": "27759",
+          "suffix": "27759",
+          "mod64": "27759",
+          "mod32": "27759",
+          "exact": "27759",
+          "file": "answers/15-1000-part2.txt",
+          "file_sha256": "47d322b787e7f1e34f673d3295b3607c4b14ed5ad3283aac01782c14dad1ffb5",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 59528,
+      "independent_moduli": [],
+      "wall_seconds": 3.565
+    },
+    {
+      "id": "15-10000",
+      "day": 15,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 5,
+          "prefix": "55502",
+          "suffix": "55502",
+          "mod64": "55502",
+          "mod32": "55502",
+          "exact": "55502",
+          "file": "answers/15-10000-part1.txt",
+          "file_sha256": "80b6c8b68a70c4324e929628735c4c27da75a7adff0e49f640fe2fa27685936d",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 6,
+          "prefix": "277236",
+          "suffix": "277236",
+          "mod64": "277236",
+          "mod32": "277236",
+          "exact": "277236",
+          "file": "answers/15-10000-part2.txt",
+          "file_sha256": "2e1560b2337ad5753feb15ce6183d0916315d3218cb964d0d5cdd52a4d1a642a",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 4984332,
+      "independent_moduli": [],
+      "wall_seconds": 385.173
+    },
+    {
+      "id": "17-117",
+      "day": 17,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 8,
+          "prefix": "45558285",
+          "suffix": "45558285",
+          "mod64": "45558285",
+          "mod32": "45558285",
+          "exact": "45558285",
+          "file": "answers/17-117-part1.txt",
+          "file_sha256": "49df7c1d9a93a1f7cfeb1c65fdad2fad9038d96f7e1f69846a9697ac2bef0991",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 8,
+          "prefix": "69665558",
+          "suffix": "69665558",
+          "mod64": "69665558",
+          "mod32": "69665558",
+          "exact": "69665558",
+          "file": "answers/17-117-part2.txt",
+          "file_sha256": "ab5f83afdcb555c4fc564650e61e30c3e4dc6a60819377dc04d240057d24da13",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 59528,
+      "independent_moduli": [],
+      "wall_seconds": 0.659
+    },
+    {
+      "id": "17-50842",
+      "day": 17,
+      "passed": true,
+      "answers": {
+        "part1": {
+          "digits": 11,
+          "prefix": "1749207432",
+          "suffix": "7492074320",
+          "mod64": "17492074320",
+          "mod32": "312205136",
+          "exact": "17492074320",
+          "file": "answers/17-50842-part1.txt",
+          "file_sha256": "f290ed02d23c9e240212e9a50ac5d6777e29169275478dccacab2236ceaa2b48",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        },
+        "part2": {
+          "digits": 11,
+          "prefix": "1249027102",
+          "suffix": "2490271023",
+          "mod64": "12490271023",
+          "mod32": "3900336431",
+          "exact": "12490271023",
+          "file": "answers/17-50842-part2.txt",
+          "file_sha256": "4e2f96ee5301db2ff851bc90608b5160eb9e81520f9a0bc2d20a853e1988fd99",
+          "published_check_passed": true,
+          "published_check_type": "full_integer"
+        }
+      },
+      "peak_process_rss_kib": 59528,
+      "independent_moduli": [],
+      "wall_seconds": 1.148
+    }
+  ],
+  "finished_at": "2026-10-19T22:35:16.915778+00:00",
+  "passed_cases": 27,
+  "recorded_cases": 27
+}
